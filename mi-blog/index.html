@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio & Blog de DevAna</title>
+    <meta name="description" content="Blog y Portfolio de proyectos de desarrollo web de Ana Garcia">
+</head>
+<body>
+    <!-- Cabecera con navegación -->
+    <header style="background-color: #0073cf; color: #fff; padding: 1em;">
+        <h1>DevAna Portfolio & Blog</h1>
+        <nav>
+            <a href="#proyectos" style="color: #fff; margin-right: 1em;">Proyectos</a>
+            <a href="#blog" style="color: #fff; margin-right: 1em;">Blog</a>
+            <a href="#contacto" style="color: #fff; margin-right: 1em;">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Seccion de proyectos con lista anidada -->
+     <main style="padding: 1em;">
+
+        <section id="proyectos">
+            <h2>Proyectos Destacados</h2>
+            <ul>
+                <li><strong>App de Tareas</strong>
+                    <ul>
+                        <li>Tecnologías: HTML5, CSS3, JavaScript</li>
+                        <li>Descripción: App web para gestionar tareas diarias.</li>
+                        <li>GitHub:
+                            <!-- target="_blank : abre el enlace a una nueva pestaña del navegador -->
+                            <a href="https://github.com/jorgeoscanoa" target="_blank">GitHub joscanoa</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Seccion de blog con entradas recientes -->
+         <section id="blog">
+            <h2>Entradas Recientes</h2>
+            <ol>
+                <li>
+                    <h3>Cómo Empezar con Angular</h3>
+                    <p>Publicado el 01/06/2025 - Una guia paso a paso para principiantes.</p>
+                    <a href="https://devana.com/blog/angular-comenzar" target="_blank">Leer más -></a>
+                </li>
+
+                <li>
+                    <h3>CSS Grid vd Flexbox</h3>
+                    <p>Publicado el 25/05/2025 - Comparacion práctica para decidir cuando usar cada uno</p>
+                    <a href="https://devana.com/blog/gridvsflebox" target="_blank">Leer mas -></a>
+                </li>
+            </ol>
+         </section>
+
+         <section id="estadisticas">
+            <h2>Estadísticas del Blog</h2>
+            <table style="width: 80%;border-collapse: collapse; margin: auto;">
+                <tr style="background-color: #e0e0e0;">
+                    <th style="padding: 10px;border: 1px solid #ccc;">Mes</th>
+                    <th style="padding: 10px;border: 1px solid #ccc;">Visitas</th>
+                    <th style="padding: 10px;border: 1px solid #ccc;">Comentarios</th>
+                </tr>
+
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ccc;">Abril 2025</td>
+                    <td style="padding: 10px; border: 1px solid #ccc;">1.200</td>
+                    <td style="padding: 10px; border: 1px solid #ccc;">15</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 10px; border: 1px solid #ccc;">Mayo 2025</td>
+                    <td style="padding: 10px; border: 1px solid #ccc;">2.500</td>
+                    <td style="padding: 10px; border: 1px solid #ccc;">34</td>
+                </tr>
+            </table>
+         </section>
+     </main>
+
+     <footer id="contacto" style="background-color: #333; color: #fff; 
+                 padding: 1em; text-align: center;margin-top: 2em ;">
+        <p>&copy; 2025 DevAna. Sigueme en <a href="https://twitter.com/DevAna" target="_blank"
+        style="color: #0077b5;">Twitter</a> y <a href="https://linkedIn.com/DevAna" target="_blank"
+        style="color: #0077b5;">LinkeInd</a>
+        </p>
+    </footer>
+</body>
+</html>
