@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Gourmet - La Cocina de Ana</title>
+    <meta name="description" content="Menú Gourmet con las especialidades de
+     la cocina de Ana: entradas, platos fuertes y postres.">
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif; background-color: #fafafa ; color: #333;
+            margin: 0; padding: 0;">
+            <!--padding: 1.5 em = Agrega el 1.5 el tamaño de fuente actual como relleno (16px) -->
+    <header style="background-color: #8b0000; color: #fff; padding: 1.5 em;text-align: center;">
+        <h1>La cocina de Ana - Menú Gourmet</h1>
+        <p style="font-size: 1.1em;">Explora nuestras delicias exclusivas</p>
+    </header>
+    <!-- em es una unidad de medida relativa CSS - se basa en tamaño de la fuente del elemento padre
+      (16px) 1em = el tamaño actual de la fuente -->
+    <main style="padding: 2em;">
+        <!-- ENTRADA -->
+        <section id="entradas" style="margin-bottom: 2em;">
+            <h2>Entradas</h2>
+            <!-- style="list-style: none;": Elimina los puntos o viñetas de la lista
+             padding: 0;: Elimina el relleno interno predeterminado del navegador -->
+            <ul style="list-style: none; padding: 0;">
+                <!-- margin-bottom: 1em;: Añade espacio debajo de este ítem.
+                 display: flex; align-items: center : Usa Flexbox para alinear horizontalmente  -->
+                <li style="margin-bottom: 1em; display: flex; align-items: center;">
+                    <!-- border-radius: 8px;: Bordes redondeados de 8px para suavizar las esquinas de la imagen. -->
+                    <img src="bruschetta.jpg" alt="Brushetta con tomate fresco" width="100"
+                    style="margin-right: 1em;border-radius: 8px;">
+                    <div>
+                        <strong>Brushetta Tradicional</strong> - €80 <br>
+                        <em>Pan tostado, tomate, albaca y aceite de oliva extra virgen</em>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- PLATO FUERTE -->
+
+        <section id="platosfuertes" style="margin-bottom: 2em;">
+            <h2>Platos Fuertes</h2>
+            <table style="width: 100%; border-collapse: collapse;">
+                
+                <tr style="background-color: #e0e0e0;">
+                    <th style="padding: 12px; border: 1px solid #ccc;">Platillo</th>
+                    <th style="padding: 12px; border: 1px solid #ccc;">Descripción</th>
+                    <th style="padding: 12px; border: 1px solid #ccc;">Precio</th>
+                </tr>
+
+                <tr>
+                    <td style="padding: 12px; border: 1px solid #ccc;">Risotto de Hongos</td>
+                    <td style="padding: 12px; border: 1px solid #ccc;">Arroz cremoso con setas y queso
+                        parmesano.</td>
+                    <td style="padding: 12px; border: 1px solid #ccc;">€180</td>
+                </tr>
+
+                <tr>
+                    <td style="padding: 12px; border: 1px solid #ccc;">Filete Mignon</td>
+                    <td style="padding: 12px; border: 1px solid #ccc;">Filete de res a la parrilla
+                        con salsa de vino tinto.</td>
+                    <td style="padding: 12px; border: 1px solid #ccc;">€240</td>
+                </tr>
+
+                <tr style="background-color: #fff8c6;">
+                    <td style="padding: 12px; border: 1px solid #ccc;">Platillo Estrella</td>
+                    <td style="padding: 12px; border: 1px solid #ccc;">Camarones al ajillo 
+                        con puré de papa trufado
+                    </td>
+                    <td style="padding: 12px; border: 1px solid #ccc;">€220</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Postres -->
+         <section id="postres" style="margin-bottom: 2em;">
+            <h2>Postres</h2>
+            <!-- display: inline-flex : Se comporte como elemento linea (Se coloca junto a otros elementos) -->
+            <!-- gap : genera separacion interna entre elementos -->
+            <ul style="display: inline-flex; gap:2em; padding: 0; list-style: none;">
+                <li style="text-align: center;">
+                    <img src="tiramisu.jpg" alt="Tiramisú clásico" width="120" style="border-radius: 8px;">
+                    <p><strong>Tiramisú Clásico</strong><br><em>€70</em></p>
+                </li>
+                <li style="text-align: center;">
+                    <img src="cheesecake.jpg" alt="Cheesecake de frutos rojos" width="120" style="border-radius: 8px;">
+                    <p><strong>Cheesecake</strong><br><em>€80</em></p>
+                </li>
+            </ul>
+         </section>
+    </main>
+
+
+    
+    
+</body>
+</html>
