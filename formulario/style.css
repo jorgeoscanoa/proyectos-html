@@ -1,0 +1,91 @@
+body{
+
+   background-image: url("https://i.pinimg.com/736x/30/29/b2/3029b2ba7f05e4c3467c9b60b6a18cb6.jpg");
+   background-size: cover;              /* Ajusta la imagen para cubrir toda la pantalla */
+   background-position: center;         /* Centra la imagen */
+   background-repeat: no-repeat;        /* Evita que la imagen se repita */
+   
+   width: 100%; /*Ocupa todo el ancho*/
+   height:100vh; /*Altura igual a la ventana navegar*/
+   margin: 0; /*Eliminar margenes por defecto*/
+   background-color: #1b1b32; /*Colo de fondo body*/
+   color: #f5f6f7;/*Color de texto*/
+   font-family: Verdana, Geneva, Tahoma, sans-serif;/*Fuente de letra*/
+   font-size: 16px;/*Tamaño de letra*/
+}
+
+/*Estilos a etiquetas*/
+
+label{
+    display: block;/*Cada etiqueta ocupa su propia linea*/
+    margin: 0.5rem 0; 
+    
+}
+
+/*Encabezados*/
+h1, p{
+    margin: 0.5em auto; /*Margen vertical y centrado horizontal*/
+    text-align: center;/*Centra el texto dentro del contenedor*/
+}
+
+/*Contendor de Formulario*/
+
+form{
+    padding-top: 0em; /*Sin espacio arriba*/
+    margin: 0 auto;/*Centra horizontalmente el formulario*/
+    max-width: 500px;/*Ancho Maximo*/
+    min-width: 300px;/*Ancho minimo para dispositivos pequeños*/
+    width: 60vw; /*Ancho relativo al 60% de la ventana*/
+    padding: 1em;
+}
+
+/*Estilos al fieldset*/
+
+fieldset{
+    border: 0; /*Elimina el borde por defecto*/
+    padding: 0.5rem 0; /*Espaciado interno vertical*/
+    border-bottom:3px solid #3b3b4f;/*Linea decorativa*/
+}
+
+fieldset:last-of-type{
+    border-bottom: none; /*Elimina la línea decorativa del ultimo fieldset*/
+
+}
+/*refuerzo por compatibilidad*/
+label{
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input,textarea,select{
+    margin: 10px 0 0 0; /*Espaciado superior entre campos*/
+    width: 100%;/* Ancho Completo del contenido*/
+    min-height: 2em;/* Altura minima para mejor acceso*/
+}
+
+.inline{
+    width: unset; /*Restaura automaticamente*/
+    margin: 0 0.5em 0 0;
+    vertical-align: middle; /*alineacion vertical;*/
+}
+
+input[type="submit"]{
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #75af2a;
+    min-width: 300px;
+}
+
+input[type="file"]{
+    padding: 1px 2px /*pequeño relleno para mejorar la apariencia*/
+}
+
+a{
+    color: #dfdfe2;
+}
+
+
+
